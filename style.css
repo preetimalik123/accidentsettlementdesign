@@ -1,0 +1,693 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.right-header {
+    display: flex;
+    color: #343f52;
+}
+
+.right-header h4 {
+    margin-bottom: 0;
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.header-logo {
+    width: auto;
+    max-height: 70px;
+    filter: invert(1);
+}
+
+.banner-section {
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.banner-section::before {
+    background-image: url(img/accident-1.jpg);
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% auto;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.banner-text-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-banner {
+    position: relative;
+    margin: 80px auto 50px;
+    width: 100%;
+    color: #fff;
+}
+
+.left-banner h2 {
+    font-size: 56px;
+    margin: 20px 0;
+    font-weight: 400;
+    width: 70%;
+}
+
+.right-banner {
+    margin-top: 0px;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    margin: 20px auto 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px rgba(133, 127, 120, 30%);
+}
+
+.right-banner h3 {
+    color: #20262f;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.type-row {
+    width: 100%;
+    margin: auto;
+    margin-left: 30px;
+}
+
+.form-area {
+    margin: 60px 0;
+    position: relative;
+}
+
+.form-second {
+    background-color: #fff;
+    padding: 40px;
+    width: 65%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px rgba(133, 127, 120, 30%);
+}
+
+.form-style {
+    padding: 20px 50px;
+}
+
+.left-banner p {
+    font-size: 20px;
+}
+
+.btn-theme {
+    background-color: #ff4605!important;
+    padding: 12px 30px;
+    border: 0!important;
+    /* background: linear-gradient(to bottom, #ddbb60 0%, #bba260 50%); */
+    font-size: 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 10px .6px rgba(0, 0, 0, 0.1)!important;
+}
+
+.btn-theme:hover {
+    box-shadow: 1px 1px 10px .6px rgba(0, 0, 0, 0.35)!important;
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #20262f;
+    text-transform: uppercase;
+}
+
+form input,
+form select,
+.form-select,
+.form-control,
+.form-check-label {
+    font-size: 14px;
+}
+
+.types-category h3 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #343f52;
+}
+
+.types-category {
+    margin-top: 80px;
+}
+
+.type {
+    padding: 15px 15px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10 10px;
+}
+
+.type:hover .img-bg {
+    background-color: #1f2838;
+}
+
+.title-main {
+    color: #ddd;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0px 0 50px;
+}
+
+.title-bg {
+    display: flex;
+    align-items: center;
+}
+
+.type h5 {
+    color: #343f52;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.settlement {
+    background-color: #000;
+    margin-top: 50px;
+    padding: 60px 0 80px;
+    background: rgb(0, 0, 0);
+    background-image: url(img/bg-dark.png);
+    width: 95%;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.settle-type h5 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 0;
+    border-radius: 0 0 0 10px;
+}
+
+.title-settle {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: #ff4605;
+    color: #fff;
+}
+
+.settle-type p {
+    font-weight: 300;
+    font-size: 38px;
+    color: #fff;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.img-section {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.img-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.form-filling {
+    padding: 50px 0;
+    background: linear-gradient(to right bottom, #ddbb60 10%, #e81c2e 50%, #9d8341 100%);
+    background-image: url(img/city.jpg);
+}
+
+.left-section p {
+    font-size: 30px;
+    color: #fff;
+}
+
+.right-section {
+    background-color: #fff;
+    padding: 30px 60px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px rgb(133 127 120 / 20%);
+}
+
+.main-img {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.main-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 2px 5px 10px rgb(0 0 0 / 40%);
+}
+
+.type-img {
+    position: absolute;
+    top: 206px;
+    left: 35%;
+}
+
+.footer {
+    color: #fff;
+    padding: 15px 0;
+}
+
+.footer p {
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-top: 40px;
+    border-top: 1px solid #ffffff42;
+    padding-bottom: 30px;
+}
+
+.form-second p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #343f52;
+}
+
+.tech-img p {
+    font-size: 25px;
+}
+
+.tech-img .orange {
+    color: #ff4605;
+}
+
+.tech-img {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.type-img img {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 #000;
+}
+
+.img-bg {
+    box-shadow: 0 0 #000;
+    background-color: #343f52;
+    text-align: center;
+    border-radius: 50%;
+    padding: 15px;
+    display: block;
+    border: 0px solid #fab758;
+    width: 80px;
+    height: 80px;
+}
+
+.type-img {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-image: url(img/footer-bg.jpg);
+    background-size: cover;
+}
+
+.footer-1 {
+    padding: 50px 0 0;
+}
+
+.footer-img {
+    width: 350px;
+}
+
+.footer-img img {
+    width: 100%;
+    filter: invert(1);
+}
+
+.navbar {
+    background-color: #000;
+}
+
+.phone-section p {
+    font-size: 20px;
+    color: #ff4605;
+    font-weight: 400;
+}
+
+.quick-links h5 {
+    font-size: 22px;
+    color: #ff4605;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.quick-links ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.quick-links ul {
+    padding-left: 0;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: 400;
+}
+
+.quick-links ul li a:hover {
+    color: #fff;
+}
+
+.floating-arrow {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.floating-arrow a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-color: #343f52;
+    padding: 8px;
+    border-radius: 10px
+}
+
+.floating-arrow img {
+    width: 100%;
+}
+
+.theme-color {
+    color: #fff!important;
+    font-size: 35px!important;
+}
+
+.copyright {
+    background-color: #000;
+    color: #fff;
+}
+
+.copyright p {
+    font-size: 13px;
+}
+
+.footer-2 {
+    position: fixed;
+    bottom: 4px;
+    z-index: 999999;
+    width: 98%;
+    left: 1%;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: block;
+    z-index: 1;
+    overflow: auto;
+    z-index: 99999;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #343f52;
+    margin: auto;
+    padding: 8px 10px;
+    box-shadow: 0px 0px 60px rgba(133, 127, 120, .2);
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.modal-content p span {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 2px;
+}
+
+.modal-content p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.w-100 {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.okay-btn {
+    background-color: #ff4605!important;
+    padding: 6px 10px;
+    border: 0!important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px .6px rgba(0, 0, 0, 0.1)!important;
+    color: #fff;
+    font-size: 13px;
+    width: fit-content;
+}
+
+.okay-btn:hover {
+    box-shadow: 1px 1px 10px .6px rgba(0, 0, 0, 0.35)!important;
+}
+
+.types-category {
+    margin-top: 180px;
+}
+
+@media screen and (max-width: 1240px) {
+    .left-banner {
+        position: absolute;
+        top: 80px;
+        width: 35%;
+        color: #fff;
+        left: 10%;
+        padding: 20px 30px;
+        border: 5px solid #e81c2e;
+    }
+    .banner-section,
+    .banner-section::before {
+        height: 730px;
+    }
+    .banner-section::before {
+        background-size: auto 100%;
+        background-color: rgba(28, 59, 90, 0.12);
+    }
+    .form-style {
+        padding: 20px 30px;
+    }
+    .right-banner h3 {
+        font-size: 22px;
+    }
+    .navbar-collapse {
+        justify-content: inherit;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .left-banner h2 {
+        font-size: 30px;
+    }
+    .left-banner {
+        position: absolute;
+        top: 80px;
+        width: 80%;
+        color: #fff;
+        left: 10%;
+    }
+    .right-banner {
+        top: 220px;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+    }
+    .left-banner {
+        position: absolute;
+        top: 30px;
+        width: 80%;
+        color: #fff;
+        left: 10%;
+        padding: 10px 20px;
+        border: 5px solid #e81c2e;
+    }
+    .right-banner h3 {
+        font-size: 18px;
+    }
+    .left-banner h2 {
+        font-size: 20px;
+        margin: 10px 0 0;
+        font-weight: 400;
+    }
+    .left-banner p {
+        font-size: 14px;
+        margin: 10px 0 0;
+    }
+    .sm-mt-15 {
+        margin-top: 15px!important;
+    }
+    .sm-mb-20 {
+        margin-bottom: 20px!important;
+    }
+    .banner-section,
+    .banner-section::before {
+        height: 800px;
+    }
+    .banner-section::before {
+        background-size: auto 100%;
+        background-color: rgba(28, 59, 90, 0.12);
+    }
+    .right-banner h3::after {
+        top: 30px;
+    }
+    .type-row {
+        width: 100%;
+        margin: auto;
+    }
+    .type {
+        padding: 20px 25px;
+    }
+    .settlement .settle-type {
+        margin-bottom: 20px;
+    }
+    .form-fill .form-area {
+        flex-wrap: wrap;
+        margin: 20px 0 50px;
+    }
+    .tech-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form-second {
+        width: 100%;
+    }
+    .footer-img {
+        width: 200px;
+    }
+    .theme-color {
+        font-size: 22px!important;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .left-banner {
+        width: 90%;
+        color: #fff;
+        left: 5%;
+    }
+    .right-banner {
+        top: 245px;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        background-color: #fff;
+    }
+    .form-style {
+        padding: 20px 20px;
+    }
+    .banner-section,
+    .banner-section::before {
+        overflow: auto;
+        height: 880px;
+    }
+    .footer-1 {
+        padding: 20px 20px;
+    }
+    .settle-type p {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .settlement {
+        background-color: rgba(254, 243, 228, .2);
+        margin-top: 30px;
+        padding: 30px 0 50px;
+    }
+    .types-category h3,
+    .title-main {
+        font-size: 25px;
+        text-align: center;
+    }
+    .types-category {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner-section,
+    .banner-section::before {
+        overflow: auto;
+        height: 1040px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar-collapse {
+        flex-wrap: wrap;
+    }
+    .navbar-brand,
+    .right-header {
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .right-header h4 {
+        margin: 2px 10px;
+    }
+    .banner-section,
+    .banner-section::before {
+        overflow: auto;
+        height: 1050px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .right-banner h3::after {
+        top: 50px;
+    }
+}
